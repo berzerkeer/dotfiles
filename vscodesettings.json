@@ -2,8 +2,8 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
   "editor.formatOnType": false,
-  "editor.fontSize": 20,
-  "editor.fontFamily": " Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "'Dank Mono Regular', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.2,
@@ -119,7 +119,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Serendipity Midnight",
   "extensions.ignoreRecommendations": true,
   "settingsSync.ignoredExtensions": [],
   "[jsonc]": {
@@ -135,7 +134,13 @@
   },
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "always",
   "scm.providerCountBadge": "auto",
-  "scm.alwaysShowActions": true
+  "scm.alwaysShowActions": true,
+  "workbench.colorTheme": "Aura Dark",
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off"
 }
