@@ -134,8 +134,11 @@ module.exports = {
       borderWidth: '3px',
       borderRadiusInner: '8px',
       borderRadiusOuter: '8px',
-      borderAngle: '360deg',
+      borderAngle: '160deg',
+      borderColors: ['#534b80', '#54c59f'],
     },
+    //hyper-opacity
+    opacity: 0.85,
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
   // a list of plugins to fetch and install from npm
@@ -144,11 +147,11 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-font-ligatures', 'hypercwd', 'hyperborder', 'hyper-tab-icons'],
+  plugins: ['hyper-font-ligatures', 'hypercwd', 'hyperborder', 'hyper-tab-icons', 'hyper-aura-theme', 'hyper-opacity'],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: [],
+  localPlugins: ['fig-hyper-integration'],
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
